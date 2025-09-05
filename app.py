@@ -5,7 +5,7 @@ todos = []
 
 @app.route('/')
 def home():
-    return "✅ Welcome to ALLLL!!!! Todo List App again post updation in html page! Use /add?task=TaskName and /list."
+    return "✅ Welcome to ALLLL to reject!!!! Todo List App again post updation in html page! Use /add?task=TaskName and /list."
 
 @app.route('/add')
 def add_task():
